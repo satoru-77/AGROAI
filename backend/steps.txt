@@ -1,0 +1,15 @@
+Tensorflow currently works on Numpy versions <2.2.0
+pip install --upgrade numpy==2.1.3  [Downgrade numpy]
+
+numpy
+pandas
+
+
+STEP 1 : python -m venv myenv
+STEP 2 : myenv\Scripts\activate
+STEP 3 : create a ".gitignore" file in "Name of ur Project" folder
+STEP 4 : Download model on your PC:
+        4.1 open new terminal and type "git lfs install" and hit ENTER (it is a tool not package)
+        4.2 Type : git clone https://huggingface.co/wellCh4n/tomato-leaf-disease-classification-vit
+        (You will see a new folder downloaded in you "project name" folder)
+STEP 5 : 

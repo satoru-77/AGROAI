@@ -1,0 +1,117 @@
+/* Main container to center everything */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f7fafc;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* Header with logo and title */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.logo {
+  background-color: #2f855a;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #2d3748;
+}
+
+/* The main white card */
+.uploader-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.uploader-card h1 {
+  font-size: 28px;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.uploader-card > p {
+  color: #718096;
+  margin-bottom: 32px;
+}
+
+/* Button styles */
+.btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  cursor: pointer;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Space for icons later */
+}
+
+.btn-primary {
+  background-color: #38a169;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #38a169;
+  border: 1px solid #a0aec0;
+}
+
+/* Bottom info text */
+.info-text {
+  margin-top: 24px;
+  font-size: 12px;
+  color: #a0aec0;
+}
+
+.info-text p {
+  margin: 4px 0;
+}
+
+.image-preview {
+  width: 100%;
+  max-height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.result-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f0fff4;
+  border-left: 4px solid #38a169;
+  text-align: left;
+}
+.button-group {
+    display: flex;
+    flex-direction: column;
+}

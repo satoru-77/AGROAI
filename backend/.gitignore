@@ -1,0 +1,27 @@
+tomato-leaf-disease-classification-vit/
+.vscode/
+
+# Python / Backend
+/backend/myenv/
+__pycache__/
+*.pyc
+
+# Node / Frontend
+/frontend/node_modules/
+/frontend/dist/
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+myenv/
+pyenv.cfg
+
+# Operating System Files
+.DS_Store
+
+# PyTorch/Tensorflow saved files (if not using safetensors)
+*.pth
+*.pt
